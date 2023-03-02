@@ -1,10 +1,8 @@
 https://replit.com/@richparker718/Topics-Website-Demo#main.py
 
-
-
 https://Topics-Website-Demo.richparker718.repl.co
 
-The "link to Your Position" page demonstrates the random number generator. I used it to generate a "random playing position" and accompanying image.
+Flask 2 features: form - on the homepage as "Softball Skill Search" ; session - "Session Activity Page Tracker"
 
 
 
