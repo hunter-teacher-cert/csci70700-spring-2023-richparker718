@@ -2,4 +2,5 @@ Link to decryption repl : https://replit.com/@richparker718/Cryptography-homewor
 
 Link to encryption program (Snap) : https://snap.berkeley.edu/snap/snap.html#present:Username=parkercs&ProjectName=Cryptography%3A%20Program%20to%20Encode%20Text%20
 
+**If the first link doesn't work, try this one... 
 https://snap.berkeley.edu/snap/snap.html#present:Username=parkercs&ProjectName=Cryptography%3A%20Program%20to%20Encode%20Text%202
