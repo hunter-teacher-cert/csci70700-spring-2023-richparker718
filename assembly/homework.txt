@@ -1,0 +1,45 @@
+section        .text
+        global _start       
+_start: 
+                         
+    mov eax, [num1]
+    mov ebx, [num2]
+   
+    add eax, ebx
+                  
+    add eax, '0' 
+    mov ebx, [num3]  
+    add eax, ebx
+    
+    mov[result], eax  
+    
+        mov        edx, len    
+        mov        ecx, msg    
+        mov        ebx, 1            
+        mov        eax, 4        
+        int        0x80       
+        
+        mov        edx, 1   
+        mov        ecx, result    
+        mov        ebx, 1            
+        mov        eax, 4            
+        int        0x80        
+        
+        mov        eax, 1            
+        int        0x80        
+
+
+section        .data
+
+
+msg        db        'The sum is: ',0xa        
+len        equ        $ - msg                        
+
+
+num1 db 2
+num2 db 3
+num3 db 1
+
+
+section .bss
+result resb 1
